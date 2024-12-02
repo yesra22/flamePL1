@@ -12,6 +12,6 @@ class Asteroid extends SpriteComponent with HasGameRef {
     sprite = await game.loadSprite('meteor/spaceMeteors_001.png');
     anchor = Anchor.center;
     // position = Vector2(game.size.x / 2, game.size.y / 2);
-    // scale = Vector2(0.5, 0.5);
+    // scale = Vector2(0.5, 0.5);;
   }
 }
