@@ -1,0 +1,10 @@
+^C:\FLAME_PL1\DASAR_FLAME\BUILD\WINDOWS\X64\CMAKEFILES\F56E820590982FCC4EF614103AF39EA7\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

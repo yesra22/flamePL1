@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\flame_pl1\dasar_flame\build\windows\x64\CMakeFiles\f56e820590982fcc4ef614103af39ea7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD1D5663-BD31-33E4-AD33-7378F78D4E62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

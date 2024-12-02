@@ -1,0 +1,28 @@
+^C:\FLAME_PL1\DASAR_FLAME\BUILD\WINDOWS\X64\CMAKEFILES\A303B0F34D0A21BA7692308CFFB4056E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Efrem\Pemrograman\Flutter\flutter PROJECT_DIR=C:\flame_pl1\dasar_flame FLUTTER_ROOT=C:\Efrem\Pemrograman\Flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\flame_pl1\dasar_flame\windows\flutter\ephemeral PROJECT_DIR=C:\flame_pl1\dasar_flame FLUTTER_TARGET=C:\flame_pl1\dasar_flame\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8yMzVkYjkxMWJhMjc5NzIyZjVlNjg1ZjM4YjBlZDMwZmE3ZTg1NzBhLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\flame_pl1\dasar_flame\.dart_tool\package_config.json C:/Efrem/Pemrograman/Flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLAME_PL1\DASAR_FLAME\BUILD\WINDOWS\X64\CMAKEFILES\142345EF0435D99CC9BB56E40260946C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLAME_PL1\DASAR_FLAME\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/flame_pl1/dasar_flame/windows -BC:/flame_pl1/dasar_flame/build/windows/x64 --check-stamp-file C:/flame_pl1/dasar_flame/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
